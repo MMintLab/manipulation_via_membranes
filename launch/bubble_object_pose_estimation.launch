@@ -1,8 +1,6 @@
 <launch>
 
-  <!-- TODO: Finish this by adding the parameters to be feeded into bubble_object_pose_estimation -->
-  <!-- launch camera calibration -->
-  <node name="estimate_tool_contact_point" pkg="bubble_control" type="estimate_tool_contact_point.py"/>
-  <node name="bubble_object_pose_estimation" pkg="bubble_control" type="bubble_object_pose_estimation.py"/>
+  <node name="estimate_tool_contact_point" pkg="manipulation_via_membranes" type="estimate_tool_contact_point.py"/>
+  <node name="bubble_object_pose_estimation" pkg="manipulation_via_membranes" type="bubble_object_pose_estimation.py"/>
 
 </launch>
