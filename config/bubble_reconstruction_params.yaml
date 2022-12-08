@@ -1,0 +1,24 @@
+marker:
+  gripper_width: 20.0
+  imprint_th:
+    tree: 0.0053
+    depth: 0.0085
+  icp_th: 0.005
+pen:
+  gripper_width: 15.0
+  imprint_th:
+    tree: 0.0048
+    depth: 0.0048
+  icp_th: 0.005
+allen:
+  gripper_width: 12.0
+  imprint_th:
+    tree: 0.0048
+    depth: 0.0048
+  icp_th: 0.005
+spatula:
+  gripper_width: 20.0
+  imprint_th:
+    tree: 0.0053
+    depth: 0.0085
+  icp_th: 0.005
