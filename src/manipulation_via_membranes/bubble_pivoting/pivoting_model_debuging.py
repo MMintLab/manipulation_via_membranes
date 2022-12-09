@@ -1,6 +1,6 @@
 import numpy as np
 
-from bubble_control.bubble_learning.models.bubble_dynamics_model import BubbleDynamicsModel
+from bubble_drawing.bubble_learning.models.bubble_dynamics_model import BubbleDynamicsModel
 import torch
 
 from manipulation_via_membranes.bubble_pivoting.datasets.combine_dataset import PivotingCombinedDataset

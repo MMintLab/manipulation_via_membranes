@@ -19,7 +19,7 @@ from manipulation_via_membranes.bubble_pivoting.models.bubble_dynamics_residual_
 from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDataset, BubblePivotingDownsampledDataset, BubblePivotingDownsampledCombinedDataset
 
 
-from bubble_control.bubble_learning.train_files.parsed_trainer import ParsedTrainer
+from bubble_drawing.bubble_learning.train_files.parsed_trainer import ParsedTrainer
 
 if __name__ == '__main__':
 

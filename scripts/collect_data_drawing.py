@@ -11,18 +11,18 @@ import tf
 import tf.transformations as tr
 import argparse
 
-from bubble_control.bubble_data_collection.bubble_draw_data_collection import BubbleDrawingDataCollection
-from bubble_control.bubble_envs.bubble_drawing_env import BubbleCartesianDrawingEnv, BubbleOneDirectionDrawingEnv, BubbleLineDrawingEnv
+from bubble_drawing.bubble_data_collection.bubble_draw_data_collection import BubbleDrawingDataCollection
+from bubble_drawing.bubble_envs.bubble_drawing_env import BubbleCartesianDrawingEnv, BubbleOneDirectionDrawingEnv, BubbleLineDrawingEnv
 from bubble_utils.bubble_data_collection.env_data_collection import EnvDataCollector, ReferencedEnvDataCollector
-from bubble_control.bubble_model_control.aux.bubble_dynamics_fixed_model import BubbleDynamicsFixedModel
-from bubble_control.bubble_model_control.aux.format_observation import format_observation_sample
-from bubble_control.bubble_model_control.cost_functions import vertical_tool_cost_function
-from bubble_control.bubble_model_control.controllers.bubble_model_mppi_controler import BubbleModelMPPIController
-from bubble_control.bubble_model_control.model_output_object_pose_estimaton import BatchedModelOutputObjectPoseEstimation
-from bubble_control.bubble_model_control.drawing_action_models import drawing_action_model_one_dir
-from bubble_control.bubble_envs.controlled_env import ControlledEnvWrapper
-from bubble_control.bubble_model_control.aux.format_observation import format_observation_sample
-from bubble_control.bubble_learning.aux.img_trs.block_downsampling_tr import BlockDownSamplingTr
+from bubble_drawing.bubble_model_control.aux.bubble_dynamics_fixed_model import BubbleDynamicsFixedModel
+from bubble_drawing.bubble_model_control.aux.format_observation import format_observation_sample
+from bubble_drawing.bubble_model_control.cost_functions import vertical_tool_cost_function
+from bubble_drawing.bubble_model_control.controllers.bubble_model_mppi_controler import BubbleModelMPPIController
+from bubble_drawing.bubble_model_control.model_output_object_pose_estimaton import BatchedModelOutputObjectPoseEstimation
+from bubble_drawing.bubble_model_control.drawing_action_models import drawing_action_model_one_dir
+from bubble_drawing.bubble_envs.controlled_env import ControlledEnvWrapper
+from bubble_drawing.bubble_model_control.aux.format_observation import format_observation_sample
+from bubble_drawing.bubble_learning.aux.img_trs.block_downsampling_tr import BlockDownSamplingTr
 
 # TEST THE CODE: ------------------------------------------------------------------------------------------------------
 

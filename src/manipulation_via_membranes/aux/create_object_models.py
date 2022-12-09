@@ -2,7 +2,7 @@ import numpy as np
 from mmint_camera_utils.camera_utils.point_cloud_utils import pack_o3d_pcd
 import open3d as o3d
 
-from bubble_control.aux.load_confs import save_object_models, load_marker_params
+from bubble_drawing.aux.load_confs import save_object_models, load_marker_params
 
 
 def create_object_models(radius=0.005, height=0.12):

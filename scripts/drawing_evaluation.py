@@ -2,7 +2,7 @@
 import argparse
 import rospy
 
-from bubble_control.bubble_data_collection.drawing_evaluation_data_collection import DrawingEvaluationDataCollection
+from bubble_drawing.bubble_data_collection.drawing_evaluation_data_collection import DrawingEvaluationDataCollection
 
 if __name__ == '__main__':
 

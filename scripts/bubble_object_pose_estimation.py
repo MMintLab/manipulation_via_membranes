@@ -8,9 +8,9 @@ import argparse
 import copy
 import threading
 
-from bubble_control.bubble_pose_estimation.bubble_pose_estimation import BubblePoseEstimator
-from bubble_control.aux.load_confs import load_bubble_reconstruction_params
-from bubble_control.bubble_contact_point_estimation.tool_contact_point_estimator import ToolContactPointEstimator
+from bubble_drawing.bubble_pose_estimation.bubble_pose_estimation import BubblePoseEstimator
+from bubble_drawing.aux.load_confs import load_bubble_reconstruction_params
+from bubble_drawing.bubble_contact_point_estimation.tool_contact_point_estimator import ToolContactPointEstimator
 
 
 def estimate_contact_point():

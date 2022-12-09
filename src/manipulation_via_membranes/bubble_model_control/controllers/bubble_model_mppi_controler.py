@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from manipulation_via_membranes.bubble_model_control.controllers.bubble_controller_base import BubbleModelController
 from manipulation_via_membranes.bubble_model_control.aux.bubble_model_control_utils import batched_tensor_sample, get_transformation_matrix, tr_frame, convert_all_tfs_to_tensors
 from manipulation_via_membranes.bubble_pivoting.pivoting_model_control.aux.pivoting_geometry import get_angle_difference, check_goal_position, get_tool_axis, get_tool_angle_gf
-from bubble_control.bubble_model_control.aux.format_observation import format_observation_sample
+from bubble_drawing.bubble_model_control.aux.format_observation import format_observation_sample
 import pdb
 
 def to_tensor(x, **kwargs):

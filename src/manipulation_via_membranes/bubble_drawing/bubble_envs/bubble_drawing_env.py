@@ -10,11 +10,11 @@ import tf.transformations as tr
 from geometry_msgs.msg import Quaternion
 
 from mmint_camera_utils.recording_utils.data_recording_wrappers import DataSelfSavedWrapper
-from bubble_control.bubble_drawer.bubble_drawer import BubbleDrawer
-from bubble_control.aux.action_spaces import AxisBiasedDirectionSpace
+from bubble_drawing.bubble_drawer.bubble_drawer import BubbleDrawer
+from bubble_drawing.aux.action_spaces import AxisBiasedDirectionSpace
 from bubble_utils.bubble_envs.bubble_base_env import BubbleBaseEnv
 from victor_hardware_interface_msgs.msg import ControlMode
-from bubble_control.aux.load_confs import load_object_models
+from bubble_drawing.aux.load_confs import load_object_models
 
 
 class BubbleDrawingBaseEnv(BubbleBaseEnv):

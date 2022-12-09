@@ -15,7 +15,7 @@ from bubble_utils.bubble_med.bubble_med import BubbleMed
 from geometry_msgs.msg import WrenchStamped
 from visualization_msgs.msg import Marker
 
-from bubble_control.bubble_contact_point_estimation.contact_point_marker_publisher import ContactPointMarkerPublisher
+from bubble_drawing.bubble_contact_point_estimation.contact_point_marker_publisher import ContactPointMarkerPublisher
 
 
 class BubbleDrawer(BubbleMed):
@@ -440,7 +440,7 @@ def test_pivot():
 
 def draw_M():
     bd = BubbleDrawer(reactive=False, force_threshold=0.25)
-    m_points = np.load('/home/mmint/InstalledProjects/robot_stack/src/bubble_control/config/M.npy')
+    m_points = np.load('/home/mmint/InstalledProjects/robot_stack/src/bubble_drawing/config/M.npy')
     m_points[:,1] = m_points[:,1]*(-1)
     # scale points:
     scale = 0.25

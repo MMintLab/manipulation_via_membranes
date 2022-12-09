@@ -4,9 +4,9 @@ import numpy as np
 import sys
 import argparse
 from arc_utilities.tf2wrapper import TF2Wrapper
-from bubble_control.bubble_contact_point_estimation.tool_contact_point_estimator import ToolContactPointEstimator
+from bubble_drawing.bubble_contact_point_estimation.tool_contact_point_estimator import ToolContactPointEstimator
 import tf.transformations as tr
-from bubble_control.aux.load_confs import load_plane_params
+from bubble_drawing.aux.load_confs import load_plane_params
 import moveit_commander
 from moveit_commander.conversions import pose_to_list
 
