@@ -11,11 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
-  arm_robots
-  arc_utilities
-  mmint_camera_utils
-  bubble_utils
-  bubble_learning
 )
 
 ## System dependencies are found with CMake's conventions
