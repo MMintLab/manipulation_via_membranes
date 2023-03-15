@@ -1,6 +1,6 @@
 import os
 
-from bubble_utils.bubble_datasets.combined_dataset import CombinedDataset
+from bubble_tools.bubble_datasets import CombinedDataset
 from manipulation_via_membranes.bubble_learning.datasets.bubble_drawing_dataset import BubbleDrawingDataset
 
 

@@ -5,7 +5,7 @@ import os
 
 from arc_utilities.tf2wrapper import TF2Wrapper
 from mmint_camera_utils.camera_utils.camera_parsers import RealSenseCameraParser
-from mmint_camera_utils.camera_utils.camera_utils import project_points_pinhole
+from mmint_tools.camera_tools.img_utils import project_points_pinhole
 from matplotlib import pyplot as plt
 from scipy.spatial import KDTree
 

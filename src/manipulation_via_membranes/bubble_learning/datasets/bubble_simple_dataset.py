@@ -1,6 +1,6 @@
 import numpy as np
 
-from bubble_utils.bubble_datasets.bubble_dataset_base import BubbleDatasetBase
+from bubble_tools.bubble_datasets import BubbleDatasetBase
 
 
 class BubbleSimpleDataset(BubbleDatasetBase):
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     from tqdm import tqdm
     from matplotlib import cm
     from mpl_toolkits.axes_grid1 import make_axes_locatable
-    from bubble_utils.bubble_tools.bubble_img_tools import process_bubble_img
+    from bubble_tools.bubble_tools.bubble_img_tools import process_bubble_img
 
     data_name = '/home/mmint/Desktop/bubble_calibration_data'
     dataset = BubbleSimpleDataset(data_name=data_name)

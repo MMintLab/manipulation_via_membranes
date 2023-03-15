@@ -1,6 +1,6 @@
 import os
 import torch
-from bubble_utils.bubble_datasets.combined_dataset import CombinedDataset
+from bubble_tools.bubble_datasets import CombinedDataset
 from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDownsampledDataset
 from manipulation_via_membranes.bubble_learning.aux.orientation_trs import QuaternionToAxis
 from manipulation_via_membranes.bubble_learning.datasets.fixing_datasets.fix_object_pose_encoding_processed_data import EncodeObjectPoseAsAxisAngleTr

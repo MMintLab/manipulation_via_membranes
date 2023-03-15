@@ -2,7 +2,7 @@ import yaml
 import os
 import numpy as np
 import json
-from mmint_camera_utils.camera_utils.point_cloud_utils import pack_o3d_pcd, unpack_o3d_pcd
+from mmint_tools.camera_tools.pointcloud_utils import pack_o3d_pcd, unpack_o3d_pcd
 
 package_path = project_path = os.path.join(os.path.dirname(os.path.abspath(__file__)).split('/bubble_pivoting')[0], 'bubble_pivoting')
 

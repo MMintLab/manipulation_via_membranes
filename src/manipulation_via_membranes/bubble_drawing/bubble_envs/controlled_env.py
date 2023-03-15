@@ -1,7 +1,4 @@
-import numpy as np
-import copy
-
-from mmint_camera_utils.aux.wrapping_utils import AttributeWrapper
+from mmint_tools.wrapping_utils.wrapping_utils import AttributeWrapper
 from bubble_drawing.aux.action_spaces import DiscreteElementSpace
 
 

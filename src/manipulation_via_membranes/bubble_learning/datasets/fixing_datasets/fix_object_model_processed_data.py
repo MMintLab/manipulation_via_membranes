@@ -1,13 +1,12 @@
 import torch
 import os
 import numpy as np
-import tqdm
-from bubble_utils.bubble_datasets.transform_processed_dataset import transform_processed_dataset
-from bubble_utils.bubble_datasets.data_transformations import TensorTypeTr
+from mmint_tools.dataset_tools.dataset_utils import transform_processed_dataset
+from bubble_tools.bubble_datasets import TensorTypeTr
 from manipulation_via_membranes.aux.load_confs import load_object_models as load_object_models_drawing
 from manipulation_via_membranes.bubble_learning.datasets.bubble_drawing_dataset import BubbleDrawingDataset
 from manipulation_via_membranes.bubble_pivoting.aux.load_confs import load_object_models as load_object_models_pivoting
-from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDataset, BubblePivotingDownsampledDataset
+from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDownsampledDataset
 
 
 class ReplaceObjectTr(object):

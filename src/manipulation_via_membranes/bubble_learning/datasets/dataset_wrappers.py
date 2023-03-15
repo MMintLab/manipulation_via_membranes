@@ -1,9 +1,8 @@
 import numpy as np
-import tf.transformations as tr
 
-from bubble_utils.bubble_datasets.bubble_dataset_base import BubbleDatasetBase
+from bubble_tools.bubble_datasets import BubbleDatasetBase
 from manipulation_via_membranes.bubble_learning.aux.img_trs.block_downsampling_tr import BlockDownSamplingTr
-from mmint_camera_utils.aux.wrapping_utils import AttributeWrapper, ClassWrapper, DecoratorWrapper
+from mmint_tools.wrapping_utils.wrapping_utils import ClassWrapper
 
 
 def imprint_downsampled_dataset(cls):

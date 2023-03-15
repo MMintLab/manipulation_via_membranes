@@ -1,5 +1,5 @@
 import numpy as np
-from mmint_camera_utils.camera_utils.point_cloud_utils import pack_o3d_pcd
+from mmint_tools.camera_tools.pointcloud_utils import pack_o3d_pcd
 import open3d as o3d
 
 from bubble_drawing.aux.load_confs import save_object_models, load_marker_params

@@ -1,4 +1,3 @@
-import argparse
 import numpy as np
 import torch
 import inspect
@@ -10,8 +9,8 @@ from torch.utils.data import DataLoader
 from pytorch_lightning.loggers import TensorBoardLogger
 from torch.utils.data import random_split
 
-from bubble_utils.bubble_datasets.dataset_base import DatasetBase
-from bubble_utils.bubble_datasets.dataset_transformed import transform_dataset
+from bubble_tools.bubble_datasets import DatasetBase
+from bubble_tools.bubble_datasets import transform_dataset
 from manipulation_via_membranes.bubble_learning.aux.remove_nontensor_elements_tr import RemoveNonTensorElementsTr
 
 

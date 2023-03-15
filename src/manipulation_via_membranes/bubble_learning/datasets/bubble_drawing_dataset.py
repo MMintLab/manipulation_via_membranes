@@ -1,11 +1,11 @@
 import numpy as np
 import tf.transformations as tr
 
-from bubble_utils.bubble_datasets.bubble_dataset_base import BubbleDatasetBase
+from bubble_tools.bubble_datasets import BubbleDatasetBase
 from manipulation_via_membranes.bubble_learning.aux.img_trs.block_downsampling_tr import BlockDownSamplingTr
 from manipulation_via_membranes.aux.load_confs import load_object_models
 from manipulation_via_membranes.bubble_pose_estimation.bubble_pc_reconstruction import BubblePCReconstructorOfflineDepth
-from mmint_camera_utils.ros_utils.utils import matrix_to_pose, pose_to_matrix
+from mmint_tools.mmint_tf_tools.tf_tools import matrix_to_pose
 
 
 class BubbleDrawingDataset(BubbleDatasetBase):

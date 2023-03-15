@@ -1,5 +1,5 @@
 import numpy as np
-from bubble_utils.bubble_tools.bubble_img_tools import process_bubble_img
+from bubble_tools.bubble_tools.bubble_img_tools import process_bubble_img
 from manipulation_via_membranes.bubble_learning.aux.orientation_trs import QuaternionToAxis
 
 

@@ -1,5 +1,5 @@
 import numpy as np
-from mmint_camera_utils.camera_utils.point_cloud_utils import pack_o3d_pcd, view_pointcloud
+from mmint_tools.camera_tools.pointcloud_utils import pack_o3d_pcd, view_pointcloud
 import copy
 from numpy.random import default_rng
 from manipulation_via_membranes.bubble_pivoting.aux.load_confs import save_object_models, load_object_params

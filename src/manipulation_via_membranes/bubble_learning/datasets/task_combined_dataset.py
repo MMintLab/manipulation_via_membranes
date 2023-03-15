@@ -1,8 +1,8 @@
 import os
 import torch
-from bubble_utils.bubble_datasets.combined_dataset import CombinedDataset
+from bubble_tools.bubble_datasets import CombinedDataset
 from manipulation_via_membranes.bubble_learning.datasets.bubble_drawing_dataset import BubbleDrawingDataset
-from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDataset, BubblePivotingDownsampledDataset
+from manipulation_via_membranes.bubble_pivoting.datasets.bubble_pivoting_dataset import BubblePivotingDownsampledDataset
 from manipulation_via_membranes.bubble_learning.datasets.dataset_wrappers import BubbleImprintCombinedDatasetWrapper
 
 
@@ -90,7 +90,7 @@ class TaskCombinedDataset(CombinedDataset):
 
 if __name__ == '__main__':
     from collections import defaultdict
-    from bubble_drawing.bubble_learning.aux.visualization_utils.image_grid import save_grid, get_imprint_grid, get_batched_image_grid
+    from bubble_drawing.bubble_learning.aux.visualization_utils.image_grid import save_grid, get_imprint_grid
     from bubble_drawing.bubble_learning.aux.visualization_utils.pose_visualization import get_object_pose_images_grid
 
     task_combined_dataset = TaskCombinedDataset('/home/mmint/bubble_datasets', only_keys=['imprint', 'object_pose', 'wrench', 'pos', 'ori'])
